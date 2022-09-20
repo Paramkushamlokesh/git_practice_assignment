@@ -1,9 +1,9 @@
 
 
-function primes(num){
+function primes(numcheck){
 	let factor=0;
-	for(let i=1;i<=num;i++){
-		if(num%i==0){
+	for(let i=1;i<=numcheck;i++){
+		if(numcheck%i==0){
 			factor++;
 		}
 	}
