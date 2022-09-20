@@ -16,8 +16,8 @@ function primes(num){
 	
 }
 
-let ans=primes(7);
-if(ans==true){
+let answer=primes(7);
+if(answer==true){
 console.log("prime");
 }
 else{
