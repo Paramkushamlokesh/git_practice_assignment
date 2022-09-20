@@ -1,9 +1,9 @@
 
 
-function primes(num){
+function primes(number){
 	let factor=0;
-	for(let i=1;i<=num;i++){
-		if(num%i==0){
+	for(let i=1;i<=number;i++){
+		if(number%i==0){
 			factor++;
 		}
 	}
@@ -16,8 +16,8 @@ function primes(num){
 	
 }
 
-let ans=primes(7);
-if(ans==true){
+let answer=primes(7);
+if(answer==true){
 console.log("prime");
 }
 else{
